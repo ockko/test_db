@@ -6,7 +6,7 @@ create user '계정명'@'localhost' identified by '비밀번호';
 use mysql;
 
 -- 계정 조회하기
-select user, user.host from user;
+select user, host from user as u;
 
 -- 데이터베으스(스키마) 생성
 create database 데이터베이스이름;
