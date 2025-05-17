@@ -43,7 +43,10 @@
     <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/study/advanced/07_SQL고급/employees.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="employees" />
+    <mapping file-url="file://$PROJECT_DIR$/study/basic/07_SQL고급/sqldb.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="sqldb" />
     <mapping file-url="file://$PROJECT_DIR$/study/basic/03_MySQL전체운영실습/shopdb.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="shopdb" />
+    <mapping file-url="file://$PROJECT_DIR$/study/advanced/07_SQL고급/sqldb.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="sqldb" />
     <mapping file-url="file://$PROJECT_DIR$/study/advanced/06_SQL기본/world.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="world" />
     <mapping file-url="file://$PROJECT_DIR$/study/advanced/06_SQL기본/sqldb.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="sqldb" />
     <mapping file-url="file://$PROJECT_DIR$/study/advanced/06_SQL기본/employees.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="employees" />
