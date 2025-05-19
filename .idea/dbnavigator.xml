@@ -28,7 +28,9 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
-    <last-used-providers />
+    <last-used-providers>
+      <object-type object-type="VIEW" editor-provider="DATA" />
+    </last-used-providers>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
@@ -37,6 +39,7 @@
     <connection id="710a65c0-a349-4466-808c-9620bae5cb6c" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" dataset="employees.employees_info" active-filter-id="" />
     <filter-actions connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" dataset="sqldb.buytbl" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
@@ -47,9 +50,12 @@
     <mapping file-url="file://$PROJECT_DIR$/study/basic/07_SQL고급/sqldb.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="sqldb" />
     <mapping file-url="file://$PROJECT_DIR$/study/basic/03_MySQL전체운영실습/shopdb.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="shopdb" />
     <mapping file-url="file://$PROJECT_DIR$/study/advanced/07_SQL고급/sqldb.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="sqldb" />
+    <mapping file-url="file://$PROJECT_DIR$/study/advanced/08_테이블_뷰/tabledb.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="tabledb" />
     <mapping file-url="file://$PROJECT_DIR$/study/advanced/06_SQL기본/world.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="world" />
+    <mapping file-url="file://$PROJECT_DIR$/study/basic/08_테이블_뷰/tabledb.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="tabledb" />
     <mapping file-url="file://$PROJECT_DIR$/study/advanced/06_SQL기본/sqldb.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="sqldb" />
     <mapping file-url="file://$PROJECT_DIR$/study/advanced/06_SQL기본/employees.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="employees" />
+    <mapping file-url="file://$PROJECT_DIR$/study/advanced/08_테이블_뷰/employees.sql" connection-id="710a65c0-a349-4466-808c-9620bae5cb6c" session-id="MAIN" current-schema="employees" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
