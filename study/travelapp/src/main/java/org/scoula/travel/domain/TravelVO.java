@@ -2,6 +2,8 @@ package org.scoula.travel.domain;
 
 import lombok.*;
 
+import java.util.List;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
@@ -15,4 +17,6 @@ public class TravelVO {
     private String description;
     private String address;
     private String phone;
+
+    private List<TravelImageVo> images;
 }
