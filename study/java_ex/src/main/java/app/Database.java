@@ -5,10 +5,12 @@ import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import lombok.Getter;
 import org.bson.Document;
 
 public class Database {
     static MongoClient client;
+    @Getter
     static MongoDatabase database;
 
     static {
@@ -19,10 +21,6 @@ public class Database {
 
     public static void close() {
         client.close();
-    }
-
-    public static MongoDatabase getDatabase() {
-        return database;
     }
 
     public static MongoCollection<Document> getCollection(String colName) {

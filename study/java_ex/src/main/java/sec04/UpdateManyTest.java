@@ -6,24 +6,23 @@ import com.mongodb.client.model.Updates;
 import com.mongodb.client.result.UpdateResult;
 import org.bson.Document;
 import org.bson.conversions.Bson;
-import org.bson.types.ObjectId;
 
-import static com.mongodb.client.model.Filters.eq;
+import static com.mongodb.client.model.Filters.gt;
 
-public class UpdateOneTest {
+public class UpdateManyTest {
     public static void main(String[] args) {
         MongoCollection<Document> collection = Database.getCollection("users");
 
-        String id = "68499b12e330d84a2e0ba6b2";
-        Bson query = eq("_id", new ObjectId(id));
+        int age = 16;
+        Bson query = gt("age", age);
 
         Bson updates = Updates.combine(
-                Updates.set("name", "modify name"),
+                Updates.set("name", "modified name"),
                 Updates.currentTimestamp("lastUpdated")
         );
 
-        UpdateResult result = collection.updateOne(query, updates);
-        System.out.println("==> UpdateResult : " + result.getModifiedCount());
+        UpdateResult result = collection.updateMany(query, updates);
+        System.out.println("==> UpdateManyResult : " + result.getModifiedCount());
         Database.close();
     }
 }
